@@ -1,6 +1,7 @@
 # 个人主页 - Vue.js 移动端组件展示
 
 这是一个响应式的个人主页项目，主要用于展示两个Vue.js移动端组件：`vue-cropper-h5` 和 `vue-calendar-h5`。
+[居里栈栈个人主页预览](https://www.yi-school.top/)
 
 ## 🚀 项目特色
 
