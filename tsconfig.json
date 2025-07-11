@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ],
+  "compilerOptions": {
+    "lib": ["es2017", "dom", "dom.iterable"],
+    // 或者使用更新的版本
+    // "lib": ["es2020", "dom", "dom.iterable"]
+  }
+}
