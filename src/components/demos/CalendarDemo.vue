@@ -144,6 +144,9 @@ export default Vue.extend({
   :deep(.calendar) {
     min-width: 100px;
   }
+  :deep(.calendar-info) {
+    margin: 0 50px;
+  }
 }
 
 .calendardome h5 {

@@ -5,7 +5,7 @@
         <h1>关于我</h1>
         <p>前端工程师 · Vue.js 组件开发者</p>
       </div>
-      
+
       <div class="about-content">
         <section class="intro-section">
           <h2>个人简介</h2>
@@ -14,7 +14,7 @@
             喜欢创造实用的组件和工具，让开发变得更加简单高效。
           </p>
         </section>
-        
+
         <section class="projects-section">
           <h2>开源项目</h2>
           <div class="project-grid">
@@ -26,11 +26,15 @@
                 <span class="feature-tag">图片旋转</span>
                 <span class="feature-tag">实时预览</span>
               </div>
-              <a href="https://github.com/2277419213/vue-cropper-h5" target="_blank" class="project-link">
+              <a
+                href="https://github.com/2277419213/vue-cropper-h5"
+                target="_blank"
+                class="project-link"
+              >
                 查看项目 →
               </a>
             </div>
-            
+
             <div class="project-card">
               <h3>vue-calendar-h5</h3>
               <p>移动端日历组件，简洁易用，支持日期标记、范围选择等功能。</p>
@@ -39,13 +43,17 @@
                 <span class="feature-tag">标记功能</span>
                 <span class="feature-tag">范围限制</span>
               </div>
-              <a href="https://github.com/2277419213/vue-calendar-h5" target="_blank" class="project-link">
+              <a
+                href="https://github.com/2277419213/vue-calendar-h5"
+                target="_blank"
+                class="project-link"
+              >
                 查看项目 →
               </a>
             </div>
           </div>
         </section>
-        
+
         <section class="tech-section">
           <h2>技术栈</h2>
           <div class="tech-grid">
@@ -75,33 +83,35 @@
             </div>
           </div>
         </section>
-        
+
         <section class="contact-section">
           <h2>联系我</h2>
           <div class="contact-info">
-            <a href="https://github.com/2277419213" target="_blank" class="contact-item">
+            <a
+              href="https://github.com/2277419213"
+              target="_blank"
+              class="contact-item"
+            >
               <span class="contact-icon">🐙</span>
               <span>GitHub</span>
             </a>
           </div>
         </section>
       </div>
-      
+
       <div class="back-home">
-        <router-link to="/" class="back-btn">
-          ← 返回首页
-        </router-link>
+        <router-link to="/" class="back-btn"> ← 返回首页 </router-link>
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
 export default Vue.extend({
-  name: 'AboutView'
-})
+  name: "AboutView",
+});
 </script>
 
 <style scoped>
@@ -302,19 +312,19 @@ export default Vue.extend({
   .about-container {
     padding: 20px;
   }
-  
+
   .about-header h1 {
     font-size: 2rem;
   }
-  
+
   .project-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .tech-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .contact-info {
     flex-direction: column;
     align-items: center;
